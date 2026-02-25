@@ -1,61 +1,158 @@
-#  Loan Approval Prediction System
+# 🏦 Loan Approval Prediction System
 
-A Machine Learning project that predicts whether a loan application will be approved based on applicant financial and demographic information.
+A Machine Learning powered web application that predicts whether a loan application will be approved or rejected based on applicant financial and personal information.
 
-##  Features
+The project includes an interactive UI, financial risk scoring, approval probability visualization, and automated PDF reporting.
 
-* Data preprocessing and feature engineering
-* Exploratory Data Analysis (EDA)
-* Machine Learning model training
-* Cross-validation accuracy evaluation
-* Streamlit web application for predictions
+---
 
-##  Dataset Features
+## 🌐 Live Demo
+
+🚀 https://loan-approval-prediction-aryan.streamlit.app/
+
+---
+
+## 📌 Features
+
+✅ Loan Approval Prediction using Machine Learning
+✅ Random Forest Classifier with optimized parameters
+✅ Financial Risk Level (Low / Medium / High)
+✅ Interactive Probability Gauge Visualization
+✅ Automated PDF Report Download
+✅ Modern Glassmorphism UI with Animated Background
+✅ GitHub & LinkedIn Integration
+✅ Cloud Deployment using Streamlit
+
+---
+
+## 🧠 Machine Learning Details
+
+**Algorithm Used:**
+
+* Random Forest Classifier
+
+**Techniques Applied:**
+
+* Feature Engineering (Log Transformations)
+* Handling Imbalanced Data using SMOTE
+* Model Evaluation & Optimization
+* Probability-based Risk Scoring
+
+---
+
+## 📊 Input Parameters
+
+The model uses the following applicant information:
 
 * Gender
-* Married Status
+* Marital Status
 * Dependents
 * Education
+* Self Employment
 * Applicant Income
 * Loan Amount
 * Credit History
-* Property Area
 
-##  Machine Learning Models Used
+---
 
-* Logistic Regression
-* Random Forest Classifier
-* Decision Tree
-
-Best accuracy achieved: **~85%**
-
-## Tech Stack
+## ⚙️ Tech Stack
 
 * Python
-* Pandas
-* NumPy
 * Scikit-learn
-* Matplotlib
-* Seaborn
+* Pandas & NumPy
+* Plotly
 * Streamlit
+* FPDF
+* Joblib
 
-## Installation
+---
 
-```bash
-git clone https://github.com/yourusername/loan-approval-prediction.git
+## 📁 Project Structure
+
+```
+Loan-Approval-Prediction/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── model/
+│   ├── model.pkl
+│   └── features.pkl
+│
+├── data/
+│   └── Dataset.csv
+│
+└── Notebook/
+    └── Loan_Approval_Prediction.ipynb
+```
+
+---
+
+## 🚀 How to Run Locally
+
+Clone repository:
+
+```
+git clone https://github.com/aryansingh0710/loan-approval-prediction.git
 cd loan-approval-prediction
+```
+
+Install dependencies:
+
+```
 pip install -r requirements.txt
+```
+
+Run application:
+
+```
 streamlit run app.py
 ```
 
-## Project Highlights
+---
 
-* Implemented feature engineering using Total Income
-* Handled missing values and categorical encoding
-* Performed model comparison using cross-validation
-* Built an interactive web app for real-time predictions
+## 📄 Output
 
-##  Author
+The system provides:
 
-Aryan Singh
-B.Tech AI & Data Science Student
+* Loan Approval / Rejection Prediction
+* Approval Probability Score
+* Financial Risk Level
+* Downloadable PDF Report
+
+---
+
+## 💼 Resume Value
+
+This project demonstrates:
+
+* End-to-End Machine Learning Pipeline
+* Model Deployment
+* Data Preprocessing & Feature Engineering
+* Interactive Dashboard Development
+* Cloud Deployment Skills
+
+---
+
+## 👨‍💻 Author
+
+**Aryan Singh**
+
+🔗 GitHub: https://github.com/aryansingh0710
+🔗 LinkedIn: https://www.linkedin.com/in/aryan-singh-ba6000252
+
+---
+
+## ⭐ Future Improvements
+
+* Explainable AI (SHAP / Feature Importance)
+* Credit Score Integration
+* Database Integration
+* User Authentication System
+
+---
+
+## 📜 License
+
+This project is for educational and portfolio purposes.

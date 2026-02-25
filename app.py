@@ -285,15 +285,26 @@ st.markdown("""
 <div class="footer-container">
 
 <p style="color:white;font-size:18px;">
- Developed by Aryan Singh
+👨‍💻 Developed by Aryan Singh
 </p>
 
-<a class="social-btn github" href="https://github.com/aryansingh0710" target="_blank">
+<a class="social-btn github"
+href="https://github.com/aryansingh0710"
+target="_blank">
 🐙 GitHub
 </a>
 
-<a class="social-btn linkedin" href="https://www.linkedin.com/in/aryan-singh-ba6000252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+<a class="social-btn linkedin"
+href="https://www.linkedin.com/in/aryan-singh-ba6000252"
+target="_blank">
 💼 LinkedIn
+</a>
+
+<a class="social-btn"
+style="background:#ff4b4b;"
+href="https://loan-approval-prediction-aryan.streamlit.app/"
+target="_blank">
+🚀 Live App
 </a>
 
 </div>
