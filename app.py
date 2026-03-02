@@ -300,12 +300,7 @@ target="_blank">
 💼 LinkedIn
 </a>
 
-<a class="social-btn"
-style="background:#ff4b4b;"
-href="https://loan-approval-prediction-aryan.streamlit.app/"
-target="_blank">
-🚀 Live App
-</a>
+
 
 </div>
 """, unsafe_allow_html=True)

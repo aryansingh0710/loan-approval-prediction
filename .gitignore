@@ -1,0 +1,6 @@
+**pycache**/
+*.pyc
+*.pkl
+.env
+.ipynb_checkpoints/
+venv/
