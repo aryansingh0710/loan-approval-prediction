@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib
+import pickle
 import numpy as np
 import pandas as pd
 from fpdf import FPDF
@@ -17,8 +17,10 @@ st.set_page_config(
 # ======================
 # Load Model
 # ======================
-model = joblib.load("model/model.pkl")
-feature_columns = joblib.load("model/features.pkl")
+with open("model/model.pkl", "rb") as f:
+    model = pickle.load(f)
+with open("model/features.pkl", "rb") as f:
+    feature_columns = pickle.load(f)
 
 # ======================
 # CSS
