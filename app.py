@@ -286,7 +286,7 @@ st.markdown("""
 
 <p style="color:white;font-size:18px;">
 👨‍💻 Developed by Aryan Singh
-</p>t
+</p>
 
 <a class="social-btn github"
 href="https://github.com/aryansingh0710"
