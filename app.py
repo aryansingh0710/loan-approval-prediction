@@ -1,8 +1,8 @@
 import streamlit as st
-import pickle
+import joblib
 import numpy as np
 import pandas as pd
-from fpdf2  import FPDF
+from fpdf  import FPDF
 import plotly.graph_objects as go
 
 # ======================
@@ -17,10 +17,9 @@ st.set_page_config(
 # ======================
 # Load Model
 # ======================
-with open("model/model.pkl", "rb") as f:
-    model = pickle.load(f)
-with open("model/features.pkl", "rb") as f:
-    feature_columns = pickle.load(f)
+
+model = joblib.load("model/model.pkl")
+feature_columns = joblib.load("model/features.pkl")
 
 # ======================
 # CSS
@@ -288,7 +287,7 @@ st.markdown("""
 
 <p style="color:white;font-size:18px;">
 👨‍💻 Developed by Aryan Singh
-</p>
+</p>t
 
 <a class="social-btn github"
 href="https://github.com/aryansingh0710"
