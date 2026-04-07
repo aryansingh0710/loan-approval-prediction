@@ -2,7 +2,7 @@
 
 A Machine Learning powered web application that predicts whether a loan application will be approved or rejected based on applicant financial and personal information.
 
-The project includes an interactive UI, financial risk scoring, approval probability visualization, and automated PDF reporting.
+The project includes an interactive UI, financial risk scoring, approval probability visualization.
 
 ---
 
@@ -119,7 +119,7 @@ The system provides:
 * Loan Approval / Rejection Prediction
 * Approval Probability Score
 * Financial Risk Level
-* Downloadable PDF Report
+
 
 ---
 
@@ -138,7 +138,7 @@ This project demonstrates:
 ## 👨‍💻 Author
 
 **Aryan Singh**
-
+🔗 portfolio: aryansingh00.netlify.app
 🔗 GitHub: https://github.com/aryansingh0710
 🔗 LinkedIn: https://www.linkedin.com/in/aryan-singh-ba6000252
 
