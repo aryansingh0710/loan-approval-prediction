@@ -293,7 +293,11 @@ href="https://github.com/aryansingh0710"
 target="_blank">
 🐙 GitHub
 </a>
-
+<a class="social-btn portfolio"
+href="https://aryansingh00.netlify.app/"
+target="_blank">
+🌐 Portfolio
+</a>
 <a class="social-btn linkedin"
 href="https://www.linkedin.com/in/aryan-singh-ba6000252"
 target="_blank">
