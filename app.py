@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
-from fpdf  import FPDF
+#from fpdf  import FPDF
 import plotly.graph_objects as go
 
 # ======================
@@ -221,7 +221,7 @@ def get_risk_level(prob):
 # ======================
 # PDF
 # ======================
-def create_pdf(result, prob):
+##def create_pdf(result, prob):
     clean_result = result.replace("✅", "").replace("❌", "")
     pdf = FPDF()
     pdf.add_page()
@@ -269,15 +269,14 @@ if predict:
         st.error(result_text)
         st.snow()
 
-    pdf_file = create_pdf(result_text, prob)
+  #  pdf_file = create_pdf(result_text, prob)
 
-    with open(pdf_file, "rb") as f:
-        st.download_button(
-            label="📄 Download Prediction Report",
-            data=f,
-            file_name="Loan_Report.pdf",
-            mime="application/pdf"
-        )
+   # with open(pdf_file, "rb") as f:
+      ##  label="📄 Download Prediction Report",
+           ## data=f,
+           # file_name="Loan_Report.pdf",
+           # mime="application/pdf"
+        #)
 
 # ======================
 # Footer
